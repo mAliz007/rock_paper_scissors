@@ -5,7 +5,7 @@ let pCounter=0;
 let cCounter = 0;
 function playGame(pChoice){
 compChoice = ["rock", "paper", "scissor"];
-let cChoice = compChoice[Math.floor(Math.random()*3+1)];
+let cChoice = compChoice[Math.floor(Math.random()*3)];
 switch(pChoice){
     case "rock":
         user.innerText = "PLAYER : ✊";
